@@ -1,0 +1,606 @@
+.nav{
+    background-color: whitesmoke;
+    padding: 1px;
+    padding-right: 20px;
+    padding-left: 20px;
+    display: flex;
+    z-index: 9;
+}
+
+
+.nav_top{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.logo{
+    width: 20%;
+}
+
+.logo img{
+    padding: 10px;
+}
+
+.nav_side{
+    padding-top: 50px;
+}
+
+
+
+
+.nav_side a{
+    text-decoration: none;
+    font-family: news system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-right: 30px;
+    font-size: medium;
+    font-weight: bold;
+    color:black;
+    transition: 0.1s;
+}
+
+.nav_side a:hover{
+    text-decoration: underline pink;
+    color: orange;
+}
+
+.main{
+    margin-top: 120px;
+    background-image: url("https://wallpaperaccess.com/full/7118427.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:left;
+    height: 100vh;
+    padding-bottom: 100px;
+
+}
+
+.main .main_content{
+    color: whitesmoke;
+    padding-top: 10px;
+    padding-right: 500px;
+    text-shadow: 10px 5px 4px  orange;
+
+}
+
+.main .main_content h2{
+    font-size: 45px;
+    font-family: news system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 100px;
+
+}
+
+
+.main .main_content h2 span{
+    font-size: large;
+    text-shadow: none;
+    opacity: 0.5;
+}
+
+.main .main_content h2 span:hover{
+    opacity:1;
+    transition: 0.1s;
+    font-weight: 400px;
+
+}
+
+.main .main_content .b1{
+    padding-left: 620px;
+}
+
+.main .main_content .btn{
+    height: 45px;
+    width: 120px;
+    border-radius:10px;
+    font-weight:bold;
+    background-color: orange;
+    text-align: center;
+    border: 2px solid pink;
+    font-style: italic;
+}
+
+
+.main .main_content .btn:hover{
+    background-color: pink;
+    box-shadow: 2px solid orange;
+    text-shadow: 2px solid red  ;
+    font-style:oblique;
+    transition: .5s;
+    
+}
+
+.our_brands{
+    padding-bottom: 50px;
+}
+
+.our_brands h2{
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    padding: 20px;
+}
+
+.our_brands .brand_container{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.our_brands .brand_container .item{
+    background-size: cover;
+    width: 33%;
+    margin: 10px;
+    height: auto;
+}
+
+.our_brands .brand_container .item:hover{
+    background-color: wheat;
+    width: 34%;
+}
+
+
+.our_brands .brand_container .item .item_img{
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+
+.our_brands .brand_container .item .item_img img{
+    width: 100%;
+    height: 250px;
+}
+
+
+.our_brands .brand_container .item .item_content{
+    text-align: center;
+}
+
+.our_brands .brand_container .item .item_content h3{
+    padding: 10px;
+    font-size: 25px;
+    font-family: news system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.our_brands .brand_container .item .item_content p{
+    padding: 10px;
+    font-size: 15px;
+    font-family: news system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.our_brands .brand_container .item .btn{
+    height: 45px;
+    width: 100px;
+    border-radius:10px;
+    font-weight:bold;
+    background-color: orange;
+    text-align: center;
+    border: 2px solid pink;
+    font-style: italic;
+}
+
+.our_brands .brand_container .item .btn:hover{
+    background-color: pink;
+    border: none;
+    border-bottom: 4px solid orange;
+    transition: 0.5s;
+
+}
+
+.our_brands  .brand_btn{   
+    text-align: center;
+    margin-top: 45px;
+    
+}
+
+.our_brands  .brand_btn .btn{
+    width: 200px;
+    height: 50px;
+    border-radius:10px;
+    font-weight:bold;
+    background-color: orange;
+    text-align: center;
+    border: 2px solid pink;
+    font-style: italic;
+}
+
+
+
+.our_brands .brand_btn .btn:hover{
+    background-color: pink;
+    border: none;
+    border-bottom: 4px solid orange;
+    transition: 0.5s;
+
+}
+
+.keypoint{
+    padding: 50px;
+
+}
+
+.keypoint h2{
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    padding: 20px;    
+
+}
+
+.keypoint .key_container{
+    display: flex;
+}
+
+
+.keypoint .key_container .key_content{
+    width: 40%;
+    padding: 20px;
+    float: left;
+}
+
+.keypoint .key_container .key_content li{
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+    border-left: 2px solid orange;
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 0px 3px 5px 0px #FFC0CB ;
+}
+
+
+.keypoint .key_container .key_img{
+    width: 40%;
+    float: right;
+    margin-left: 100px;
+}
+
+.keypoint .key_container .key_img img{
+    width: 100%;
+    height: 80%;
+}
+
+.testi{
+    padding: 50px;
+}
+
+.testi h2{
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    padding: 20px;  
+    text-transform: uppercase;
+}
+
+.testi .testi_container{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+.testi .testi_container .item{
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+}
+
+.testi .testi_container .carousel-inner{
+    background-color: white;
+    box-shadow: none;   
+}
+
+.testi .testi_container .item .item_img{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+    background-attachment: fixed;
+}
+
+.testi .testi_container .item .item_img img{
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+}
+
+
+.testi .testi_container .item .item_content{
+    text-align: center;
+}
+
+.testi .testi_container .item .item_content h3{
+    padding: 10px;
+    font-size: 25px;
+    font-family: news system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.testi .testi_container .item .item_content p{
+    padding-bottom: 20px;
+    font-size: 15px;
+    font-family: news system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+footer{
+    background-color:wheat;
+    padding: 50px;
+}
+
+footer .logo_img {
+    border-radius: 100px;
+}
+
+footer .pages{
+    text-align: center;
+}
+
+footer .pages h3{
+    color: black;
+    font-size: 20px;
+    font-family: news system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 5px;
+}
+
+footer .pages a{
+    text-decoration: none;
+    margin: 10px;
+    color:rebeccapurple
+}
+
+footer .pages a:hover{
+    color: orangered;
+}
+
+footer .documents{
+    text-align: center;
+}
+
+footer .documents h3{
+    color: black;
+    font-size: 20px;
+    font-family: news system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 5px;
+}
+
+footer .documents a{
+    text-decoration: none;
+    margin: 10px;
+    color:rebeccapurple
+}
+
+footer .documents a:hover{
+    color: orangered;
+}
+
+
+footer .social_media{
+    text-align: center;
+}
+
+footer .social_media h3{
+    color: black;
+    font-size: 20px;
+    font-family: news system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 5px;
+}
+
+footer .social_media a{
+    text-decoration: none;
+    margin: 10px;
+    color:rebeccapurple
+}
+
+footer .social_media a:hover{
+    color: orangered;
+}
+
+
+footer .contact{
+    text-align: center;
+}
+
+footer .contact h3{
+    color: black;
+    font-size: 20px;
+    font-family: news system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 5px;
+}
+
+footer .contact a{
+    text-decoration: none;
+    margin: 10px;
+    color:rebeccapurple
+}
+
+footer .contact a:hover{
+    color: orangered;
+}
+
+.team .team_container{
+    display: flex;
+}
+
+.team .team_container .team_video{
+    width: 50%;
+    padding: 20px;  
+}
+
+.team .team_container .team_video iframe{
+    margin-top: 10px;
+    width: 100%;
+    height: 100%;
+    border: 10px solid pink;
+    outline: none;
+}
+
+.team .team_container .team_content{
+    width: 40%;
+    padding: 30px;
+    margin-left: 40px ;
+
+}
+
+.team .team_container .team_content p{
+    padding: 10px;
+    font-size: 15px;
+    font-family: news system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    
+}
+
+
+.team{
+    padding: 50px;
+}
+
+.team h2{
+    font-family: news system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    padding: 20px;  
+    text-transform: uppercase;
+}
+
+.feed {
+    padding: 50px;  
+    background-image: url(https://blog.bonus.ly/hubfs/feedback-examples-featured-01-2.png);
+    background-size: cover;
+}
+
+.feed h2{
+    font-family: news system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    padding: 20px;  
+    text-transform: uppercase;
+
+}
+
+
+.feed .feed_form{
+    text-align: center;
+}
+
+
+.feed .feed_form form{
+    padding: 20px;
+}
+
+
+.feed .feed_form form input{
+    width: 30%;
+    margin: 10px;
+    padding: 8px;
+    outline: none;
+    border: none;
+}
+
+.feed .feed_form form textarea{
+    width: 30%;
+    margin: 10px;
+    padding: 8px;
+    outline: none;
+    border: none;
+}
+
+.feed .feed_form form button{
+    width: 30%;
+    margin: 10px;
+    padding: 8px;
+    outline: none;
+    border: none;
+    background-color: purple;
+    color: white;
+    border-radius: 5px;
+}
+
+.about_us{
+    padding: 50px;  
+    background-image: url(https://images.template.net/110293/dark-teal-solid-background-02td9.jpeg);
+    color: white;
+    background-size: cover;
+
+}
+
+.about_us h2{
+    font-family: news system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: pink;
+    font-size: 45px;
+    text-align: center;
+    padding: 20px;  
+    text-transform: uppercase;
+}
+
+.about_us h2:hover{
+    font-family: news system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: orangered;
+    font-size: 45px;
+    text-align: center;
+    padding: 20px;  
+    text-transform: uppercase;
+}
+
+.about_us .about_content{
+    width: 100%;
+    text-align: center;
+}
+
+.about_us .about_content h3{
+    color: orange;
+    font-weight: bold;
+    font-family: news system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.about_us .about_content p{
+    font-family: news system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.contact_container{
+    padding: 10px;
+}
+
+.contact_container h2{
+    font-family: news system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: pink;
+    font-size: 45px;
+    text-align: center;
+    padding: 10px;  
+    text-transform: uppercase;
+}
+
+.contact_container h2:hover{
+    color: orange;
+}
+
+.contact_container .g_map{
+    width: 67%;
+    margin-left: 17%;
+    margin-right: 17%;  
+}
+
+.contact_container .contact_content{
+    padding: 20px;
+}
+
+.contact_container .contact_content p{
+    font-family: news system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 30px;
+}
+
+
+
+
+
